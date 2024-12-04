@@ -1,0 +1,32 @@
+.card {
+    width: 20rem;
+    height: 31.1875rem;
+    background-color: $white;
+    border-radius: 1.25rem;
+
+    &__qrcodeImage {
+        background-image: url('/images/image-qr-code.png');
+        background-size: cover;
+        height: 18rem;
+        width: 18rem;
+        border-radius: 0.625rem;
+        margin-bottom: 1.5rem;
+    }
+
+    &__text {
+        h2 {
+            font-size: $font_L;
+            color: $Slate900;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 0.6875rem;
+            margin-bottom: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+}
